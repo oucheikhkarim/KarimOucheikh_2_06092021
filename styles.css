@@ -1,0 +1,570 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+#margin-space-work
+{
+    width: 85%;
+    margin: auto;
+   
+}
+#block-nav-logo
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+   
+}
+li
+{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+.space
+{
+    width: 135px;
+    text-align: center;
+}
+.space a:hover
+{
+    border-top: #0065fc solid 2px;
+    color: #0065fc; 
+    height: 100px;
+    line-height: 100px;  
+    display: block;
+    width: 100%;
+}
+.s-inscrire
+{
+   width: 70px; 
+   padding-left: 14px;
+}
+.s-inscrire a
+{
+    color: #0065fc;
+    font-weight: bold;
+}
+.first-paragraph
+{
+    margin-bottom: 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.second-paragraph
+{
+    margin: 0px;   
+}
+label
+{
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #f2f2f2 ;
+    border-radius: 15px 0px 0px 15px;
+    vertical-align: top;
+}
+input[type="text"]
+{
+    height: 36px;
+    border:  #f2f2f2 solid 1px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+input[type="submit"]
+{
+    border: #0065fc solid 1px;
+    height: 40px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065fc;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+}
+#search-bar
+{
+    display: flex;
+}
+.filtre
+{
+    border: black solid 1px;
+    display: flex;
+}
+#block-filtres
+{
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    
+}
+.filtre div
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    background-color: #deebff;
+    color: #0065fc;
+}
+.filtre p
+{
+    margin: 0px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.filtre
+{
+    border: #f2f2f2 solid 2px;
+    border-radius: 25px;
+    border-left: none;
+}
+.filtre:hover
+{
+    background-color: #deebff;
+    color: #0065fc;
+}
+#titre-filtre
+{
+   margin: 0px;
+   width: 45px; 
+   height: 40px;
+   line-height: 40px;
+   font-weight: bold;
+}
+.block-informations
+{
+    display: flex;
+    align-items: center;
+} 
+.i
+{
+    border:#f2f2f2 solid 2px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px ;
+    font-size: 0.7em;
+    text-align: center;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #0065fc;
+
+}
+.logements
+{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1
+{
+    padding-left: 35px;
+    padding-top: 30px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+.block-principal
+{
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width: 700px;
+    height: 500px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    height: 365px;
+    width: 630px;
+    padding-left: 35px;
+    padding-right: 35px; 
+}
+.block-interne
+{
+    padding-top: 7px;
+    border-radius: 15px;
+    background-color: white;
+    height: 142px;
+    width: 186px;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.image1
+{
+    width: 180px ;
+    position:relative;
+    top: -21px;
+    left: 0px;
+}
+.image2
+{
+    width: 180px ;
+    position:relative;
+    top: -21px;
+    left: 0px;
+}
+.image3
+{
+    width: 180px ;
+    position:relative;
+    top: -21px;
+    left: 0px;
+}
+.image4
+{
+    width: 180px ;
+    position:relative;
+    top: -45px;
+    left: 0px;
+}
+.image5
+{
+    width: 180px ;
+    position:relative;
+    top: -10px;
+    left: 0px;
+}
+.image6
+{
+    width: 180px ;
+    position:relative;
+    top: -95px;
+    left: 0px;
+}
+
+.interligne
+{
+    margin-top: 4px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size:13px ;
+}
+.interligne1
+{
+    margin-top: -9px;
+    margin-left: 15px;
+    font-size: 11.5px;
+}
+.afficher-plus
+{
+    padding-left: 35px;
+    font-weight: bolder;
+    position: relative;
+    top: -15px;
+}
+.gallery
+{
+    height: 80px;
+    width: 175px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 5px;
+    margin-top: -2px;
+
+}
+.block-all-stars
+{
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    margin-top: -7px;
+    margin-left: 15px;
+}
+.stars-bleu
+{
+    display: flex;
+    color: #0065fc;
+}
+.stars-grey
+{
+    display: flex;
+    color: #deebff;
+}
+aside
+{
+    width: 350px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius:  20px; ;
+}
+.block-principal-aside
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+.second-i
+{
+    font-size: 18px;
+    padding-right: 30px;
+    position: relative;
+    top: 10px;
+}
+.alignment-blocks
+{
+    display: flex;
+    justify-content: space-around;
+}
+.content-aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 310px;
+    height: 420px;
+    padding-left: 40px;
+}
+.block-interne-aside
+{
+    display: flex;
+    background-color: white;
+    width: 270px;
+    height: 108px;
+    border-radius: 15px;
+    margin-top: -30px;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.image7
+{
+    width: 170px ;
+    height: 100px;
+    border-radius: 10px 0px 0px 10px;
+    position:relative;
+    left: -35px;
+}
+.image8
+{
+    width: 150px ;
+    height: 100px;
+    border-radius: 10px 0px 0px 10px;
+    position:relative;
+    left: -25px;
+}
+.image9
+{
+    width: 100px ;
+    height: 150px;
+    border-radius: 10px 0px 0px 10px;
+    position:relative;
+    top: -25px;
+}
+.interligne-aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5px;
+}
+.block-all-stars-aside
+{
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    margin-top: -7px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.gallery-aside
+{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 0px 0px 10px;
+    position:relative;
+    top: 3px;
+    left: 3px;
+}
+.block-hebergement
+{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.vieux-port
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.image10
+{
+    width: 530px;
+    height: 330px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    left: -135px;
+}
+h2
+{
+    font-size: 18px;
+    font-weight: bold; 
+}
+h3
+{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.block-image10
+{
+    overflow: hidden;
+    height: 290px;
+}
+.block2-activity
+{
+    display: flex;
+    flex-direction: column;
+}
+.fort-de-pomègues
+{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.block-image11
+{
+    overflow: hidden;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+.image11
+{
+width: 270px;
+height: 300px;
+border-radius: 15px 15px 0px 0px;
+position: relative;
+top: -60px;
+}
+.iles-de-frioul
+{
+    width: 270px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.block-image12
+{
+    overflow: hidden;
+    height: 80px;
+    border-radius: 15px 15px 0px 0px;
+}
+.image12
+{
+    width: 275px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -45px;
+    left: -5px;
+}
+.block2-activity
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parc-national-des-calanques
+{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.block-image13
+{
+    overflow: hidden;
+    height: 287px;
+    border-radius: 15px 15px 0px 0px;
+}
+.image13
+{
+    width: 510px;
+    height: 330px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    left: -150px;
+    top: -5px;
+}
+.notre-dame-de-la-garde
+{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.block-image14
+{
+    overflow: hidden;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+}
+.image14
+{
+    width: 270px;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -5px;
+}
+.parc-longchamp
+{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px #e3e3e3;
+}
+.block-image15
+{
+    overflow: hidden;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.image15
+{
+    width: 270px;
+    height: 175px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -5px;
+}
+.block4-activity
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-all-activity
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+}
