@@ -2,7 +2,7 @@
 {
     font-family: 'Raleway', sans-serif;
 }
-#margin-space-work
+.space-work
 {
     width: 85%;
     margin: auto;
@@ -100,6 +100,10 @@ input[type="submit"]
 {
     display: flex;
 }
+#localisation::placeholder
+{
+    color: black;
+}
 .filtre
 {
     border: black solid 1px;
@@ -182,11 +186,11 @@ h1
     margin-top: 0px;
     font-size: 18px;
 }
-.block-principal
+.principal-block
 {
     border-radius: 20px;
     background-color: #f2f2f2;
-    width: 700px;
+    width: 750px;
     height: 500px;
 }
 
@@ -196,11 +200,11 @@ h1
     justify-content: space-between ;
     flex-wrap: wrap;
     height: 365px;
-    width: 630px;
+    width: 670px;
     padding-left: 35px;
     padding-right: 35px; 
 }
-.block-interne
+.internal-block
 {
     padding-top: 7px;
     border-radius: 15px;
@@ -252,14 +256,14 @@ h1
     left: 0px;
 }
 
-.interligne
+.line-spacing
 {
     margin-top: 4px;
     margin-left: 15px;
     font-weight: bold;
     font-size:13px ;
 }
-.interligne1
+.line-spacing1
 {
     margin-top: -9px;
     margin-left: 15px;
@@ -308,7 +312,7 @@ aside
     background-color: #f2f2f2;
     border-radius:  20px; ;
 }
-.block-principal-aside
+.title-block-aside
 {
     display: flex;
     justify-content: space-between;
@@ -325,7 +329,8 @@ aside
 .alignment-blocks
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1200px;
 }
 .content-aside
 {
@@ -336,7 +341,7 @@ aside
     height: 420px;
     padding-left: 40px;
 }
-.block-interne-aside
+.internal-block-aside
 {
     display: flex;
     background-color: white;
@@ -370,7 +375,7 @@ aside
     position:relative;
     top: -25px;
 }
-.interligne-aside
+.line-spacing-aside
 {
     display: flex;
     flex-direction: column;
@@ -384,7 +389,7 @@ aside
     font-size: 10px;
     margin-top: -7px;
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .gallery-aside
 {
@@ -396,32 +401,47 @@ aside
     top: 3px;
     left: 3px;
 }
-.block-hebergement
+.basic-block
 {
-    margin-left: 40px;
     margin-top: 50px;
+    width: 1200px;
+}
+h2
+{
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}
+.block-all-activity
+{
+    display: flex;
+    justify-content: space-between;
+}
+.block1-activity, .block2-activity, .block3-activity, .block4-activity
+{
+    width: 270px;
+}
+.block1-activity
+{
+    display: flex;
+    flex-direction: column;
 }
 .vieux-port
 {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 270px;
     border-radius: 20px 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
 .image10
 {
-    width: 530px;
+    width: 565px;
     height: 330px;
     border-radius: 20px 20px 0px 0px;
     position: relative;
-    left: -135px;
-}
-h2
-{
-    font-size: 18px;
-    font-weight: bold; 
+    left: -140px;
 }
 h3
 {
@@ -434,10 +454,11 @@ h3
     overflow: hidden;
     height: 290px;
 }
-.block2-activity
+.block2-activity, .block4-activity
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .fort-de-pomègues
 {
@@ -483,17 +504,16 @@ top: -60px;
     top: -45px;
     left: -5px;
 }
-.block2-activity
+.block3-activity
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .parc-national-des-calanques
 {
     display: flex;
     flex-direction: column;
-    width: 220px;
+    width: 270px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
@@ -505,11 +525,11 @@ top: -60px;
 }
 .image13
 {
-    width: 510px;
+    width: 610px;
     height: 330px;
     border-radius: 15px 15px 0px 0px;
     position: relative;
-    left: -150px;
+    left: -170px;
     top: -5px;
 }
 .notre-dame-de-la-garde
@@ -556,15 +576,46 @@ top: -60px;
     position: relative;
     top: -5px;
 }
-.block4-activity
+footer
 {
+    background-color: #f2f2f2;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 40px;
+    height: 200px;
 }
-.block-all-activity
+.space-work-internal
 {
     display: flex;
     justify-content: space-between;
-    width: 1120px;
+    width: 1000px;
+}
+.organisation
+{
+    width: 230px;
+    height: 180px;
+    padding-top: 15px;
+}
+footer ul
+{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 250px;
+    padding-left: 0px;
+}
+footer a
+{
+    width: 230px;
+    margin-left: -15px;
+    font-size: 13px;
+}
+.li-block
+{
+    height: 30px;
+}
+h4
+{
+    font-size: 15px;
+    font-weight: bold;
 }
