@@ -4,21 +4,25 @@
 }
 .space-work
 {
-    width: 85%;
+    width: 1180px;
     margin: auto;
    
 }
 #block-nav-logo
 {
     display: flex;
-    justify-content:space-between;
     align-items: center;
     height: 100px;
+}
+nav
+{
+    width: 100%;
 }
 ul
 {
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
    
 }
 li
@@ -86,7 +90,7 @@ input[type="text"]
     font-size: 1.1em;
     font-weight: bold;
 }
-input[type="submit"]
+input[value="Rechercher"]
 {
     border: #0065fc solid 1px;
     height: 40px;
@@ -95,6 +99,20 @@ input[type="submit"]
     color: white;
     width: 100px;
     font-weight: bold;
+    cursor: pointer;
+}
+#magnifyin
+{
+    border: #0065fc solid 1px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #0065fc;
+    color: white;
+    width: 40px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: none;
+    
 }
 #search-bar
 {
@@ -106,15 +124,13 @@ input[type="submit"]
 }
 .filtre
 {
-    border: black solid 1px;
     display: flex;
+    margin-left: 45px;
 }
 #block-filtres
 {
     display: flex;
-    width: 850px;
-    justify-content: space-between;
-    
+    width: 100%;
 }
 .filtre div
 {
@@ -159,6 +175,7 @@ input[type="submit"]
 {
     display: flex;
     align-items: center;
+    
 } 
 .i
 {
@@ -206,11 +223,11 @@ h1
 }
 .internal-block
 {
-    padding-top: 7px;
     border-radius: 15px;
     background-color: white;
     height: 142px;
     width: 186px;
+    padding-top: 5px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
 .image1
@@ -218,42 +235,36 @@ h1
     width: 180px ;
     position:relative;
     top: -21px;
-    left: 0px;
 }
 .image2
 {
     width: 180px ;
     position:relative;
     top: -21px;
-    left: 0px;
 }
 .image3
 {
     width: 180px ;
     position:relative;
     top: -21px;
-    left: 0px;
 }
 .image4
 {
     width: 180px ;
     position:relative;
     top: -45px;
-    left: 0px;
 }
 .image5
 {
     width: 180px ;
     position:relative;
     top: -10px;
-    left: 0px;
 }
 .image6
 {
     width: 180px ;
     position:relative;
     top: -95px;
-    left: 0px;
 }
 
 .line-spacing
@@ -284,7 +295,7 @@ h1
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-left: 5px;
-    margin-top: -2px;
+    margin-top: px ;
 
 }
 .block-all-stars
@@ -310,14 +321,14 @@ aside
     width: 350px;
     height: 500px;
     background-color: #f2f2f2;
-    border-radius:  20px; ;
+    border-radius:  20px; 
 }
 .title-block-aside
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 350px;
+    width: 337px;
 }
 .second-i
 {
@@ -330,7 +341,7 @@ aside
 {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 100%;
 }
 .content-aside
 {
@@ -348,8 +359,11 @@ aside
     width: 270px;
     height: 108px;
     border-radius: 15px;
-    margin-top: -30px;
     box-shadow: 0px 0px 10px #e3e3e3;
+}
+.internal-block-aside a
+{
+    display: block;
 }
 .image7
 {
@@ -395,22 +409,22 @@ aside
 {
     overflow: hidden;
     width: 100px;
-    height: 100px;
+    height: 98px;
     border-radius: 10px 0px 0px 10px;
-    position:relative;
-    top: 3px;
-    left: 3px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
-.basic-block
+.basic-block-activities
 {
     margin-top: 50px;
-    width: 1200px;
+    width: 100%;
 }
 h2
 {
     font-size: 18px;
     font-weight: bold;
     width: 200px;
+    padding-left: 25px;
 }
 .block-all-activity
 {
@@ -486,7 +500,7 @@ top: -60px;
 .iles-de-frioul
 {
     width: 270px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
 .block-image12
@@ -618,4 +632,444 @@ h4
 {
     font-size: 15px;
     font-weight: bold;
+}
+@media all and (max-width: 768px)
+{
+    .space-work
+    {
+        width: 375px;
+    }
+    #block-nav-logo
+    {
+        flex-wrap: wrap;
+    }
+    nav:nth-child(2)
+    {
+        order: 3;
+    }
+   .space
+    {
+        width: 100%;
+        height: 30px;
+        border-bottom:2px solid #f2f2f2;  
+    }
+    ul
+    {
+        padding-left: 0px;
+    }
+    .space a:hover
+    {
+        border-top: none;
+        border-bottom: 2px solid #0065fc;
+        height: 30px;
+        line-height: 30px;
+    }
+    .register
+    {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .register a
+    {
+        position: relative;
+        right: 15px;
+    }
+    #block-logo
+    {
+        width: 50%;
+    }
+    #block-logo img
+    {
+        position: relative;
+        left: 15px;
+    }
+    .first-paragraph
+    {
+        width: 85%;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .second-paragraph
+    {
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    #search-bar
+    {
+        margin-left: 15px; 
+    }
+    input[value="Rechercher"]
+    {
+        display: none;
+    }
+    #magnifyin
+    {
+        display: block;
+        position: relative;
+        left: -9px;
+    }
+    input[placeholder="Marseille,France"]
+    {
+        width: 240px;
+    }
+    #block-filtres
+    {
+        flex-wrap: wrap;
+        width: 360px;
+    }
+    #titre-filtre
+    {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .filtre
+    {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .i
+    {
+        margin-left: 15px;
+    }
+    .alignment-blocks
+    {
+        flex-direction:column-reverse;
+        width: 100%;
+    }
+    aside
+    {
+        width: 100%;
+        height: 570px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-aside
+    {
+        width: 100%;
+        height: 480px;
+        padding-left: 0px;
+        align-items: center;
+    }
+    .internal-block-aside
+    {
+        width: 335px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .line-spacing-aside
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -5px;
+        width: 100%;
+    }
+    .principal-block
+    {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        height: 1450px;
+        width: 100%;
+        }
+    .content
+    {
+        flex-direction: column;
+        align-items: center;
+        height: 1300px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    h1
+    {
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    .second-i
+    {
+        font-size: 18px;
+        padding-right: 5px;
+        position: relative;
+        top: 10px;
+    }
+    .logements
+    {
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 280px;
+    }
+    .i
+    {
+        border:#f2f2f2 solid 2px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px ;
+        font-size: 0.7em;
+        text-align: center;
+        border-radius: 100px;
+        margin-right: 10px;
+        color: #0065fc;
+        margin-bottom: 20px;
+    }
+    .internal-block
+    {
+        height: 195px;
+        width: 335px;
+    }
+    .gallery
+    {
+        height: 130px;
+        width: 325px;
+    }
+    .image1
+    {
+        width: 345px ;
+        height: 250px;
+        position:relative;
+        top: -60px;
+        left: -15px;
+    }
+    .image2
+    {
+        width: 330px ;
+        height: 240px;
+        position:relative;
+        top: -55px;
+        left: 0px;
+    }
+    .image3
+    {
+        width: 400px ;
+        height: 250px;
+        position:relative;
+        top: -60px;
+        left: -10px;
+    }
+    .image4
+    {
+        width: 340px ;
+        height: 350px;
+        position:relative;
+        top: -110px;
+        left: -10px;
+    }
+    .image5
+    {
+        width: 340px ;
+        height: 180px;
+        position:relative;
+        top: -15px;
+        left: -10px;
+    }
+    .image6
+    {
+        width: 335px ;
+        height: 540px;
+        position:relative;
+        top: -200px;
+        left: -5px;
+    }
+    .afficher-plus
+    {
+        padding-left: 25px;
+        position: relative;
+        top: -15px;
+    }
+    .title-block-aside
+    {
+        width: 355px;
+    }
+    .gallery-aside
+    {
+        width: 250px;
+        height: 140px;
+    }
+    .image7
+    {
+        width: 250px;
+        height:160px ;
+        position: relative;
+        left: -55px;
+        top: -10px;
+    }
+    .image8
+    {
+      width: 220px;
+      height: 150px; 
+      position: relative;
+      left: -40px;
+    }
+    .image9
+    {
+        width: 150px;
+        height: 210px;
+        position: relative;
+        left: -10px;
+        top: -35px;
+    }
+    .basic-block-activities
+    {
+        margin-top: 0px;
+    }
+    .block-all-activity
+    {
+        flex-direction: column;
+        height: 1100px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .block1-activity 
+    {
+        height: 175px;
+        width: 335px;
+        
+    }
+    .vieux-port
+    {
+        width: 335px;
+        height: 175px;
+        border-radius: 15px 15px;
+    }
+    .block-image10
+    {
+        width: 335px;
+    }
+    .image10
+    {
+        width: 345px;
+        height: 240px;
+        position: relative;
+        left: -10px;
+        top: -25px;
+    }
+    .block2-activity 
+    {
+        height: 360px;
+        width: 335px;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .fort-de-pomègues
+    {
+        width: 335px;
+        height: 175px;
+    }
+    .block-image11
+    {
+        width: 335px;
+    }
+    .image11
+    {
+        width: 335px;
+        height: 360px;
+        position: relative;
+        top: -80px;
+    }
+    .iles-de-frioul
+    {
+        width: 335px;
+        height: 175px;
+        margin-top: 10px;
+    }
+    .block-image12
+    {
+        width: 335px;
+        height: 130px;
+    }
+    .image12
+    {
+        width: 345px;
+        height: 260px;
+        position: relative;
+        top: -40px;
+    }
+    .block3-activity
+    {
+        height: 175px;
+        width: 335px;
+        margin-top: 10px;
+    }
+    .parc-national-des-calanques
+    {
+        width: 335px;
+        height: 175px;
+    }
+    .block-image13
+    {
+        width: 335px;
+    }
+    .image13
+    {
+        width: 365px;
+        height: 240px;
+        position: relative;
+        left: -10px;
+        top: -30px;
+    }
+    .block4-activity
+    {
+        height: 360px;
+        width: 335px;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .notre-dame-de-la-garde
+    {
+        width: 335px;
+        height: 175px;
+    }
+    .block-image14
+    {
+        width: 335px;
+        height: 130px;
+    }
+    .image14
+    {
+        width: 335px;
+        height: 215px;
+        position: relative;
+        top: -15px;
+    }
+    .parc-longchamp
+    {
+        width: 335px;
+        height: 175px;
+        margin-top: 10px;
+    }
+    .block-image15
+    {
+        width: 335px;
+        height: 130px;
+    }
+    .image15
+    {
+        width: 335px;
+        height: 215px;
+        position: relative;
+        top: -10px;
+    }
+    .space-work-internal
+    {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 375px;
+    }
+    .organisation
+    {
+        height: 130px;
+        margin-left: 35px;
+    }
+    footer
+    {
+        height: 450px;
+        width: 375px;
+        margin: auto;
+        margin-top: 40px;
+    }
 }
