@@ -2,16 +2,20 @@
 {
     font-family: 'Raleway', sans-serif;
 }
+body
+    {
+        margin: 0px;
+    }
 .space-work
 {
-    width: 1180px;
+    max-width: 1180px;
     margin: auto;
-   
 }
 #block-nav-logo
 {
     display: flex;
     align-items: center;
+    width: 100%;
     height: 100px;
 }
 nav
@@ -130,7 +134,6 @@ input[value="Rechercher"]
 #block-filtres
 {
     display: flex;
-    width: 100%;
 }
 .filtre div
 {
@@ -175,7 +178,8 @@ input[value="Rechercher"]
 {
     display: flex;
     align-items: center;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
 } 
 .i
 {
@@ -193,86 +197,67 @@ input[value="Rechercher"]
 .logements
 {
     font-size: 14px;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 h1
 {
-    padding-left: 35px;
-    padding-top: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 .principal-block
 {
     border-radius: 20px;
     background-color: #f2f2f2;
-    width: 750px;
-    height: 500px;
+    width: 68%;
 }
-
 .content
 {
     display: flex;
     justify-content: space-between ;
     flex-wrap: wrap;
-    height: 365px;
-    width: 670px;
     padding-left: 35px;
-    padding-right: 35px; 
+    padding-right: 35px;
+}
+.content a
+{
+    width: 30%;
+    margin-bottom: 30px;
 }
 .internal-block
 {
     border-radius: 15px;
     background-color: white;
     height: 142px;
-    width: 186px;
+    width: 100%;
     padding-top: 5px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
-.image1
+.principal-block h1
 {
-    width: 180px ;
-    position:relative;
-    top: -21px;
+    padding-left: 35px;
 }
-.image2
+.image1, .image2, .image3, .image5
 {
-    width: 180px ;
-    position:relative;
-    top: -21px;
+    width: 100% ;
+    height: 80px;
+    object-fit: cover;
+    object-position: bottom;
 }
-.image3
+.image4, .image6
 {
-    width: 180px ;
-    position:relative;
-    top: -21px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    top: -20px;
 }
-.image4
-{
-    width: 180px ;
-    position:relative;
-    top: -45px;
-}
-.image5
-{
-    width: 180px ;
-    position:relative;
-    top: -10px;
-}
-.image6
-{
-    width: 180px ;
-    position:relative;
-    top: -95px;
-}
-
 .line-spacing
 {
     margin-top: 4px;
     margin-left: 15px;
     font-weight: bold;
     font-size:13px ;
+    width: 70%;
 }
 .line-spacing1
 {
@@ -290,13 +275,11 @@ h1
 .gallery
 {
     height: 80px;
-    width: 175px;
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-left: 5px;
-    margin-top: px ;
-
+    margin-right: 5px;
 }
 .block-all-stars
 {
@@ -318,8 +301,7 @@ h1
 }
 aside
 {
-    width: 350px;
-    height: 500px;
+    width: 27%;
     background-color: #f2f2f2;
     border-radius:  20px; 
 }
@@ -327,37 +309,28 @@ aside
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 337px;
+    width: 90%;
+    margin: auto;
 }
 .second-i
 {
     font-size: 18px;
-    padding-right: 30px;
-    position: relative;
-    top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .alignment-blocks
 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-}
-.content-aside
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 310px;
-    height: 420px;
-    padding-left: 40px;
 }
 .internal-block-aside
 {
     display: flex;
     background-color: white;
-    width: 270px;
+    width: 90%;
+    margin: auto;
     height: 108px;
+    margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
@@ -389,13 +362,6 @@ aside
     position:relative;
     top: -25px;
 }
-.line-spacing-aside
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -5px;
-}
 .block-all-stars-aside
 {
     display: flex;
@@ -414,17 +380,18 @@ aside
     margin-left: 5px;
     margin-top: 5px;
 }
+.line-spacing-aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5px;
+    width: 62%;
+}
 .basic-block-activities
 {
     margin-top: 50px;
     width: 100%;
-}
-h2
-{
-    font-size: 18px;
-    font-weight: bold;
-    width: 200px;
-    padding-left: 25px;
 }
 .block-all-activity
 {
@@ -433,7 +400,7 @@ h2
 }
 .block1-activity, .block2-activity, .block3-activity, .block4-activity
 {
-    width: 270px;
+    width: 23%;
 }
 .block1-activity
 {
@@ -444,7 +411,6 @@ h2
 {
     display: flex;
     flex-direction: column;
-    width: 270px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #e3e3e3;
@@ -478,7 +444,6 @@ h3
 {
     display: flex;
     flex-direction: column;
-    width: 270px;
     border-radius: 20px 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #e3e3e3;
@@ -499,7 +464,6 @@ top: -60px;
 }
 .iles-de-frioul
 {
-    width: 270px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
     display: flex;
@@ -529,7 +493,6 @@ top: -60px;
 {
     display: flex;
     flex-direction: column;
-    width: 270px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
@@ -552,7 +515,6 @@ top: -60px;
 {
     display: flex;
     flex-direction: column;
-    width: 270px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
@@ -566,7 +528,6 @@ top: -60px;
 {
     width: 270px;
     height: 150px;
-    border-radius: 15px 15px 0px 0px;
     position: relative;
     top: -5px;
 }
@@ -574,7 +535,6 @@ top: -60px;
 {
     display: flex;
     flex-direction: column;
-    width: 270px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
@@ -595,21 +555,17 @@ top: -60px;
 footer
 {
     background-color: #f2f2f2;
-    display: flex;
-    justify-content: space-around;
     margin-top: 40px;
-    height: 200px;
 }
 .space-work-internal
 {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 80%;
 }
 .organisation
 {
     width: 230px;
-    height: 180px;
     padding-top: 15px;
 }
 footer ul
@@ -617,18 +573,17 @@ footer ul
     display: flex;
     justify-content: start;
     flex-direction: column;
-    width: 250px;
     padding-left: 0px;
 }
 footer a
 {
     width: 230px;
-    margin-left: -15px;
     font-size: 13px;
 }
 .li-block
 {
     height: 30px;
+    padding-left: 0px;
 }
 h4
 {
@@ -637,10 +592,6 @@ h4
 }
 @media all and (max-width: 768px)
 {
-    .space-work
-    {
-        width: 375px;
-    }
     #block-nav-logo
     {
         flex-wrap: wrap;
@@ -718,7 +669,6 @@ h4
     #block-filtres
     {
         flex-wrap: wrap;
-        width: 360px;
     }
     #titre-filtre
     {
@@ -742,336 +692,290 @@ h4
     aside
     {
         width: 100%;
-        height: 570px;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
     }
     .content-aside
     {
-        width: 100%;
-        height: 480px;
-        padding-left: 0px;
-        align-items: center;
+        width: 90%;
+        margin: auto;
     }
     .internal-block-aside
     {
-        width: 335px;
+        width: 100%;
         height: 150px;
         margin-top: 0px;
     }
-    .line-spacing-aside
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: -5px;
-        width: 100%;
-    }
+
     .principal-block
     {
-        background-color: white;
         display: flex;
         flex-wrap: wrap;
-        height: 1450px;
         width: 100%;
+        background-color: white;
         }
     .content
     {
-        flex-direction: column;
-        align-items: center;
-        height: 1300px;
-        width: 100%;
-        margin-bottom: 20px;
+        width: 90%;
         padding-left: 0px;
         padding-right: 0px;
+        margin: auto;
     }
-    h1
+    .content a
     {
-        padding-left: 20px;
-        padding-top: 30px;
-        font-size: 18px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .principal-block h1
+    {
+        width: 90%;
+        margin: auto;
+        padding: 25px 0px;
+        
     }
     .second-i
     {
         font-size: 18px;
         padding-right: 5px;
-        position: relative;
-        top: 10px;
     }
     .logements
     {
         font-size: 14px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 280px;
-    }
-    .i
-    {
-        border:#f2f2f2 solid 2px;
-        width: 20px;
-        height: 20px;
-        line-height: 20px ;
-        font-size: 0.7em;
-        text-align: center;
-        border-radius: 100px;
-        margin-right: 10px;
-        color: #0065fc;
-        margin-bottom: 20px;
+        width: 71%;
     }
     .internal-block
     {
         height: 195px;
-        width: 335px;
     }
     .gallery
     {
         height: 130px;
-        width: 325px;
     }
-    .image1
+    .image1, .image2
     {
-        width: 345px ;
         height: 250px;
-        position:relative;
+        position: relative;
         top: -60px;
-        left: -15px;
-    }
-    .image2
-    {
-        width: 330px ;
-        height: 240px;
-        position:relative;
-        top: -55px;
-        left: 0px;
     }
     .image3
     {
-        width: 400px ;
         height: 250px;
         position:relative;
-        top: -60px;
-        left: -10px;
+        top: -100px;
     }
     .image4
     {
-        width: 340px ;
         height: 350px;
         position:relative;
-        top: -110px;
-        left: -10px;
+        top: -160px;
     }
     .image5
     {
-        width: 340px ;
         height: 180px;
         position:relative;
-        top: -15px;
-        left: -10px;
+        top: -45px;
     }
     .image6
     {
-        width: 335px ;
-        height: 540px;
+        height: 400px;
         position:relative;
         top: -200px;
-        left: -5px;
     }
     .afficher-plus
     {
-        padding-left: 25px;
-        position: relative;
-        top: -15px;
+        padding-left: 0px;
+        padding-top: 20px;
+        width: 90%;
+        margin: auto;
     }
     .title-block-aside
     {
-        width: 355px;
+        width: 90%;
     }
     .gallery-aside
     {
-        width: 250px;
+        width: 38%;
         height: 140px;
     }
     .image7
     {
-        width: 250px;
+        width: 100%;
         height:160px ;
+        object-fit: cover;
         position: relative;
-        left: -55px;
+        left: 0px;
         top: -10px;
     }
     .image8
     {
-      width: 220px;
+      width: 100%;
       height: 150px; 
+      object-fit: cover;
       position: relative;
-      left: -40px;
+      left: 0px;
     }
     .image9
     {
-        width: 150px;
+        width: 100%;
         height: 210px;
+        object-fit: cover;
         position: relative;
-        left: -10px;
-        top: -35px;
+        left: 0px;
+        top: -55px;
     }
     .basic-block-activities
     {
         margin-top: 0px;
     }
+    .basic-block-activities h1
+    {
+        width: 90%;
+        margin: auto;
+        padding: 25px 0px;
+    }
     .block-all-activity
     {
-        flex-direction: column;
-        height: 1100px;
-        align-items: center;
-        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
     }
     .block1-activity 
     {
         height: 175px;
-        width: 335px;
-        
+        width: 100%;
+        margin-bottom: 15px;
     }
     .vieux-port
     {
-        width: 335px;
         height: 175px;
         border-radius: 15px 15px;
     }
-    .block-image10
-    {
-        width: 335px;
-    }
     .image10
     {
-        width: 345px;
+        width: 100%;
         height: 240px;
+        object-fit: cover;
         position: relative;
-        left: -10px;
-        top: -25px;
+        left: 0px;
+        top: -55px;
     }
     .block2-activity 
     {
         height: 360px;
-        width: 335px;
-        justify-content: flex-start;
-        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 15px;
     }
     .fort-de-pomègues
     {
-        width: 335px;
+        width: 100%;
         height: 175px;
-    }
-    .block-image11
-    {
-        width: 335px;
     }
     .image11
     {
-        width: 335px;
+        width: 100%;
         height: 360px;
+        object-fit: cover;
         position: relative;
-        top: -80px;
+        top: -110px;
     }
     .iles-de-frioul
     {
-        width: 335px;
+        width: 100%;
         height: 175px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .block-image12
     {
-        width: 335px;
+        width: 100%;
         height: 130px;
     }
     .image12
     {
-        width: 345px;
+        width:100% ;
         height: 260px;
         position: relative;
+        object-fit: cover;
         top: -40px;
+        left: 0px;
     }
     .block3-activity
     {
         height: 175px;
-        width: 335px;
-        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 15px;
     }
     .parc-national-des-calanques
     {
-        width: 335px;
+        width: 100%;
         height: 175px;
-    }
-    .block-image13
-    {
-        width: 335px;
     }
     .image13
     {
-        width: 365px;
+        width: 100%;
         height: 240px;
+        object-fit: cover;
         position: relative;
-        left: -10px;
-        top: -30px;
+        left: 0px;
+        top: -70px;
     }
     .block4-activity
     {
         height: 360px;
-        width: 335px;
-        justify-content: flex-start;
-        margin-top: 10px;
+        width: 100%;
     }
     .notre-dame-de-la-garde
     {
-        width: 335px;
         height: 175px;
     }
     .block-image14
     {
-        width: 335px;
         height: 130px;
     }
     .image14
     {
-        width: 335px;
-        height: 215px;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
         position: relative;
-        top: -15px;
+        top: -60px;
     }
     .parc-longchamp
     {
-        width: 335px;
         height: 175px;
         margin-top: 10px;
     }
     .block-image15
     {
-        width: 335px;
         height: 130px;
     }
     .image15
     {
-        width: 335px;
+        width: 100%;
         height: 215px;
+        object-fit: cover;
         position: relative;
-        top: -10px;
+        top: -30px;
     }
     .space-work-internal
     {
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 375px;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
     }
     .organisation
     {
-        height: 130px;
-        margin-left: 35px;
+        width: 100%;
     }
     footer
     {
-        height: 450px;
-        width: 375px;
+        width: 100%;
         margin: auto;
         margin-top: 40px;
+    }
+    .li-block
+    {
+        justify-content: start;
     }
 }
