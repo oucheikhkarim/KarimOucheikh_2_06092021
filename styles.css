@@ -16,7 +16,7 @@ body
     max-width: 1180px;
     width: 100%;
     margin: auto;
-    padding: 0 10px;  
+    padding: 0 10px;
 }
 #block-nav-logo
 {
@@ -193,7 +193,7 @@ input[value="Rechercher"]
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.hébergements
+.hebergements
 {
     display: flex;
     justify-content: space-between;
@@ -206,23 +206,23 @@ section
     width: 60%;
     padding: 0 35px;
 }
-#titre-hébergements
+#titre-hebergements
 {
     margin-top: 30px;
     font-size: 18px;
 }
-.content-hébergements
+.content-hebergements
 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.content-hébergements a
+.content-hebergements a
 {
     margin-bottom: 35px;
     width: 30%;
 }
-.hébergements-blocks
+.hebergements-blocks
 {
     width: 95%;
     border-radius: 15px;
@@ -231,11 +231,11 @@ section
     padding: 5px 5px 0;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
-.hébergements-cadre
+.hebergements-cadre
 {
     width: 100%;
 }
-.hébergements-cadre img
+.hebergements-cadre img
 {
     width: 100%;
     height: 80px;
@@ -338,23 +338,23 @@ aside
     justify-content: space-between;
     padding: 10px 0;
 }
-.activités
+.activites
 {
     margin-top: 50px;
     width: 100%;
 }
-#titre-activités
+#titre-activites
 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.content-activités
+.content-activites
 {
     display: flex;
     justify-content: space-between;
 }
-.activités-blocks
+.activites-blocks
 {
     width: 23%;
     border-radius: 20px;
@@ -362,16 +362,16 @@ aside
     flex-direction: column;
     justify-content: space-between;
 }
-.activités-blocks-shadow
+.activites-blocks-shadow
 {
     box-shadow: 0 0 10px #e3e3e3;
 }
-.activités-sous-blocks
+.activites-sous-blocks
 {
     border-radius: 20px 20px;
     box-shadow: 0px 0px 10px #e3e3e3;
 }
-.activités-cadre img
+.activites-cadre img
 {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -404,7 +404,7 @@ img[alt="image parc longchamp"]
     width: 100%;
     height: 150px;
 }
-.activités-blocks h3
+.activites-blocks h3
 {
     font-size: 16px;
     font-weight: bold;
@@ -427,7 +427,6 @@ footer
 .space-work-footer div
 {
     width: 33%;
-    padding-top: 15px 0;
 }
 h4
 {
@@ -467,7 +466,7 @@ footer li
     { 
         margin-right: 35px;
     }
-    .hébergements
+    .hebergements
     {
         flex-direction: column-reverse;
     }
@@ -495,41 +494,41 @@ footer li
         padding: 0;
         background-color: white;
     }
-    #titre-hébergements
+    #titre-hebergements
     {
         width: 95%;
         margin: 30px auto 15px;
     }
-    .content-hébergements, .afficher-plus
+    .content-hebergements, .afficher-plus
     {
         width: 95%;
         margin: auto;
     }
-    #titre-activités
+    #titre-activites
     {
         width: 95%;
         margin: 0 auto 20px;
     }
-    .content-activités
+    .content-activites
     {
         width: 95%;
         margin: auto;
         flex-wrap: wrap;
     }
-    .activités-blocks
+    .activites-blocks
     {
         width: 100%;
         margin-bottom: 20px;
     }
-    .activités-blocks_responsive
+    .activites-blocks_responsive
     {
         flex-direction: row;
     }
-    .activités-blocks_responsive a
+    .activites-blocks_responsive a
     {
         width: 45%;
     }
-    .activités-cadre img
+    .activites-cadre img
     {
         height: 150px;
     }
@@ -616,47 +615,47 @@ footer li
     {
         width: 100%;
     }
-    #titre-hébergements, .content-hébergements,
+    #titre-hebergements, .content-hebergements,
     .afficher-plus
     {
         width: 90%;
     }
-    .content-hébergements
+    .content-hebergements
     {
         margin-bottom: 15px;
     }
-    .content-hébergements a
+    .content-hebergements a
     {
         width: 100%;
         margin-bottom: 15px;
     }
-    .hébergements-blocks
+    .hebergements-blocks
     {
         width: 100%;
         height: 212px;
         margin: auto;
     }
-    .hébergements-cadre img
+    .hebergements-cadre img
     {
         height: 150px;
     }
-    #titre-activités, .content-activités
+    #titre-activites, .content-activites
     {
         width: 90%;
     }
-    .activités-blocks
+    .activites-blocks
     {
         margin-bottom: 0;
     }
-    .activités-blocks-shadow
+    .activites-blocks-shadow
     {
         margin-bottom: 20px;
     }
-    .activités-blocks_responsive
+    .activites-blocks_responsive
     {
         flex-direction: column;
     }
-    .activités-blocks_responsive a
+    .activites-blocks_responsive a
     {
         width: 100%;
         margin-bottom: 15px;
