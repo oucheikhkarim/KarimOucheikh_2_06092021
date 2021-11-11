@@ -127,17 +127,6 @@ input[value="Rechercher"]
 {
     display: flex;
 }
-.filtre div
-{
-    display: block;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 20px;
-    background-color: #deebff;
-    color: #0065fc;
-}
 #titre-filtre
 {
    margin: 0 45px 0 0;
@@ -157,6 +146,16 @@ input[value="Rechercher"]
 }
 .filtre:hover
 {
+    background-color: #deebff;
+    color: #0065fc;
+}
+.filtre div
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
     background-color: #deebff;
     color: #0065fc;
 }
@@ -278,7 +277,7 @@ aside
 {
     width: 30%;
     background-color: #f2f2f2;
-    border-radius:  20px; 
+    border-radius:  20px;
 }
 .titre-populaire
 {
@@ -464,6 +463,7 @@ footer li
     .filtre
     { 
         margin-right: 35px;
+        margin-top: 10px;
     }
     .hebergements
     {
@@ -596,10 +596,6 @@ footer li
     input[placeholder="Marseille,France"]
     {
         width: 240px;
-    }
-    .filtre
-    {
-        margin-top: 10px;
     }
     .titre-populaire
     {
